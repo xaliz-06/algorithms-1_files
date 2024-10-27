@@ -1,0 +1,21 @@
+# Ignore Maven target directories
+**/target/
+**/out/
+**/build/
+**/bin/
+**/.vscode/
+# Ignore IDE specific files
+.idea/
+*.iml
+*.class
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+# Ignore Maven wrapper files
+.mvn/
+!**/mvnw
+!**/mvnw.cmd
+# Ignore local Maven repository
+repository/
